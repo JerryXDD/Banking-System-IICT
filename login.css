@@ -1,0 +1,18 @@
+*{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    font-style: normal;
+}
+.square{
+    background: linear-gradient(90deg, rgba(13, 165, 224, 1) 27%, rgba(87, 199, 133, 1) 47%, rgba(237, 221, 83, 1) 100%);
+    display: flexbox;
+    flex-direction: column;
+    border: 5px solid rgb(0, 0, 0);
+    width: 230px;
+    height: 190px;
+    margin: auto;
+    margin-top: 18%;
+    padding-left: 2%;
+    padding: auto;
+}
