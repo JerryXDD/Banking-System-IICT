@@ -216,7 +216,11 @@ label{
     }
   }
   
-  .link1{
+  .link1, .forgot{
     all: unset;
     cursor: pointer;
   }
+.forgot{
+  font-size: 13px;
+  margin-left: 209px;
+}

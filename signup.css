@@ -31,16 +31,16 @@ body {
 }
 .motto1{
     margin-top: -40px;
-    margin-left: 60px;
+    margin-left: 62px;
 }
 .logo1{
     margin-top: -80px;
-    margin-left: 20px;
-    width: 300px;
+    margin-left: auto;
+    width: 350px;
     height: 150px; 
 }
 .name, .email, .password{
-    width: 330px;
+    width: 340px;
     height: 35px;
     margin-left: 1px;
     border: 1px solid black;
@@ -49,6 +49,7 @@ body {
     align-items: center;
     color: #251930;
     padding-right: 30px;
+    margin-bottom: 13px;
 }
 .name{
     background-image: url(person.svg);
