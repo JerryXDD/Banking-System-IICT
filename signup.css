@@ -34,7 +34,7 @@ body {
     margin-left: 60px;
 }
 .logo1{
-    margin-top: -85px;
+    margin-top: -80px;
     margin-left: 20px;
     width: 300px;
     height: 150px; 
@@ -118,7 +118,7 @@ button:active {
     transform: translateY(-0.1em);
     }
 } 
-.button {
+.redirect {
     cursor: pointer;
     position: relative;
     padding: 10px 24px;
@@ -132,12 +132,12 @@ button:active {
     overflow: hidden;
     margin-top: 10px;
     margin-left: 0;
-    width: 2px;
-    height: 30px;
+    width: 0px;
+    height: 2px;
     background-image: url(arrow-left.svg);
     background-repeat: no-repeat;
 }
-.button::before {
+.redirect::before {
     content: '';
     position: absolute;
     inset: 0;
@@ -149,13 +149,13 @@ button:active {
     z-index: -1;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
 }
-.button:hover::before {
+.redirect:hover::before {
     scale: 3;
 }
-.button:hover {
+.redirect:hover {
     scale: 1.1;
     box-shadow: 0 0px 20px;
 }
-.button:active {
+.redirect:active {
     scale: 1;
 }
