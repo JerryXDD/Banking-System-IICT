@@ -161,7 +161,7 @@ label{
   margin-left: 0px;
   margin-top: 18px;
 }  
-button, .button-link {
+.button1, .button-link {
   font-family: inherit;
   font-size: 20px;
   background: #16302B;
@@ -177,26 +177,26 @@ button, .button-link {
   cursor: pointer;
   text-decoration: none;
 }  
-button span, .button-link span {
+.button1 span, .button-link span {
   display: block;
   margin-left: 0.3em;
   transition: all 0.3s ease-in-out;
 }  
-button svg, .button-link svg {
+.button1 svg, .button-link svg {
   display: block;
   transform-origin: center center;
   transition: transform 0.3s ease-in-out;
 }  
-button:hover .svg-wrapper, .button-link:hover .svg-wrapper {
+.button1:hover .svg-wrapper, .button-link:hover .svg-wrapper {
   animation: fly-1 0.6s ease-in-out infinite alternate;
 }  
-button:hover svg, .button-link:hover svg {
+.button1:hover svg, .button-link:hover svg {
   transform: translateX(1.2em) rotate(45deg) scale(1.1);
 }  
-button:hover span, .button-link:hover span {
+.button1:hover span, .button-link:hover span {
   transform: translateX(5em);
 }
-button:active, .button-link:active {
+.button1:active, .button-link:active {
   transform: scale(0.95);
 }
 @keyframes fly-1 {
