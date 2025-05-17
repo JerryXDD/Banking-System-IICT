@@ -66,7 +66,6 @@ body {
     margin-top: 2px;
     margin-left: 13px;
 }
-
 .active-page{
     background-color: #458375;
     border-radius: 30px;
@@ -79,14 +78,20 @@ body {
     align-items: center;
     padding: 0px;
 }
+.heading{
+  margin-top: -15px;
+  font-size: 28px;
+  margin-left: 200px;
+  color: antiquewhite;
+}
 .debitcard{
+    margin-top: 15px;
     border: 1px solid black;
     border-radius: 15px;
     width: 450px;
     height: 250px;
-    margin: auto;
-    padding: auto;
-    background-color: #35adb1;
+    margin-left: 200px;
+    background-image: linear-gradient(rgb(118, 74, 168), black);
 
 }
 .bankname{
@@ -102,7 +107,7 @@ body {
 }
 .cardnum{
   margin-left: 10px;
-  color: #2E382E;
+  color: rgb(207, 205, 205);
   font-size: 28px;
   margin-top: 30px;
 
@@ -112,28 +117,28 @@ body {
   justify-content: space-between;
   margin-left: 10px;
   width: 45%;
-  margin-top: -15px
+  margin-top: 18px;
 }
 .validfrom, .validuptill{
-  color: #2E382E; 
+  color: rgb(207, 205, 205); 
   font-size: 12px;
   margin: 0;
   font-weight: bold;
 }
 .cardname{
-  color:#2E382E; 
+  color:rgb(207, 205, 205); 
   font-size: 20px;
   font-weight: bold;
   margin-left: 10px;
-  margin-top: -25px;
+  margin-top: 5px;
 }
 .mastercardlogo {
   height: 70px;
-  margin-left: 358px; 
-  margin-top: -70px;
-  margin-bottom: 5px;
+  margin-left: 355px; 
+  margin-top: -59px;
 }
 .bankheader {
+  margin-top: -3px;
   display: flex;
   margin-left: 10px;
 }
@@ -141,4 +146,321 @@ body {
   height: 45px;
   margin-top: 15px;
   margin-left: -7px; 
+}
+.debitcard1{
+    margin-top: 13px;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 450px;
+    height: 250px;
+    margin-left: 200px;
+    background-image: linear-gradient(rgb(74, 168, 145), black);
+}
+.bankname1{
+  margin-left: 85px;
+  margin-top: 15px;
+  height: 40px;
+  
+}
+.taplogo1{
+  height: 29px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.cardnum1{
+  margin-left: 10px;
+  color: rgb(207, 205, 205);
+  font-size: 28px;
+  margin-top: 30px;
+
+}
+.validity1{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  width: 45%;
+  margin-top: 18px;
+}
+.validfrom1, .validuptill1{
+  color: rgb(207, 205, 205); 
+  font-size: 12px;
+  margin: 0;
+  font-weight: bold;
+}
+.cardname1{
+  color:rgb(207, 205, 205); 
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.mastercardlogo1 {
+  height: 70px;
+  margin-left: 355px; 
+  margin-top: -59px;
+}
+.bankheader1 {
+  margin-top: -3px;
+  display: flex;
+  margin-left: 10px;
+}
+.banklogo1 {
+  height: 45px;
+  margin-top: 15px;
+  margin-left: -7px; 
+}
+.freeze-card{
+  margin-top: 10px
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 200px;
+  width: 45px;
+  height: 40px;
+  background-color: #c8ece4e4;
+  border-radius: 45px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  user-select: none;
+}
+.btn:hover {
+  background-color: #61c4fd;
+  color: #fff;
+}
+#toggle:checked + .btn {
+  background-color: #61c4fd;
+  color: #fff;
+}
+.btn .icon {
+  margin-left: -1px;
+  margin-bottom: 12px;
+  width: 3em;
+  height: 2em;
+  display: block;
 } 
+.txt1{
+  margin-top: -30px;
+  margin-left: 250px;
+  font-size: 20px;
+  color: white;
+}
+.freeze-card1{
+  margin-top: 10px
+}
+.btn1 {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 200px;
+  width: 45px;
+  height: 40px;
+  background-color: #c8ece4e4;
+  border-radius: 45px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  user-select: none;
+}
+.btn1:hover {
+  background-color: #61c4fd;
+  color: #fff;
+}
+#toggle1:checked + .btn1 {
+  background-color: #61c4fd;
+  color: #fff;
+}
+.btn1 .icon {
+  margin-left: -1px;
+  margin-bottom: 12px;
+  width: 3em;
+  height: 2em;
+  display: block;
+} 
+.txt11{
+  margin-top: -30px;
+  margin-left: 250px;
+  font-size: 20px;
+  color: white;
+}
+.creditcurrent{
+  margin-left: 200px;
+  margin-top: 10px;
+  font-size: 24px;
+  color:antiquewhite
+}
+.debitcurrent{
+  margin-left: 200px;
+  margin-top: 20px;
+  font-size: 24px;
+  color:antiquewhite
+}
+.send-money {
+  display: flex;
+  flex-direction: column;
+  margin-top: -720px;
+  margin-left: 700px;
+  width: 890px;
+  background: #688d85;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #16302b;
+}
+.tabs {
+  display: flex;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.tabs input[type="radio"] {
+  display: none;
+}
+
+.tab {
+  padding: 10px 15px;
+  cursor: pointer;
+  position: relative;
+  color: white;
+}
+
+#own-account:checked ~ label[for="own-account"],
+#other-account:checked ~ label[for="other-account"] {
+  color: rgb(26, 58, 50);
+  font-weight: bold;
+}
+
+#own-account:checked ~ label[for="own-account"]:after,
+#other-account:checked ~ label[for="other-account"]:after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(26, 58, 50);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-control:focus {
+  border-color: rgb(74, 168, 145);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 64, 128, 0.2);
+}
+
+.currency-input {
+  position: relative;
+}
+
+.currency-input .form-control {
+  padding-right: 60px;
+}
+
+.currency-symbol {
+  position: absolute;
+  right: 10px;
+  color: black;
+  top: 10px;
+}
+
+.date-input {
+  position: relative;
+}
+
+.date-input .form-control {
+  padding-right: 40px;
+}
+
+.date-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #666;
+  cursor: pointer;
+}
+
+.dropdown-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  cursor: pointer;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.dropdown-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+#other-data-toggle:checked ~ .dropdown-content {
+  max-height: 300px;
+  margin-top: 15px;
+}
+
+#other-data-toggle {
+  display: none;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+#other-data-toggle:checked ~ .dropdown-header .arrow {
+  transform: rotate(180deg);
+}
+
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: -13px;
+}
+
+.submit-btn:hover {
+  background-color: #333;
+}
+
+.required:after {
+  content: ' *';
+  color: #e60000;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.textarea {
+  height: 40px;
+  resize: none;
+}

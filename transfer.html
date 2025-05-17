@@ -24,6 +24,12 @@
     <iframe src="https://free.timeanddate.com/clock/i9vm4wtd/n757/fs20/tcc8ece4/pc16302b/bo2/th2/ts1" frameborder="0" width="135" height="27"></iframe>
     </div>
     </section>
+    <section class="heading">
+        <h3>My Cards</h3>
+    </section>
+    <section class="creditcurrent">
+        <h4>Credit Card:</h4>
+    </section>
     <section class="debitcard">
     <div class="bankheader">
         <img class="banklogo" src="chasethumb.png" alt="Bank Logo"> 
@@ -39,6 +45,112 @@
         <p class="validuptill"> VALID THRU 10/29</p>
     </div>
     <img class="mastercardlogo" src="mc_symbol_opt_53_2x.png" alt="Mastercard Logo">
+    </section>
+    <section class="freeze-card">
+        <input type="checkbox" id="toggle" hidden>
+        <label for="toggle" class="btn">
+        <img src="ice-crystal-svgrepo-com.svg" alt="Ice Icon" class="icon">
+        </label>
+        <div class="txt1">
+        <label>
+            Freeze Card
+        </label>
+        </div>
+    </section>
+    <section class="debitcurrent">
+        <h4>Debit Card:</h4>
+    </section>
+    <section class="debitcard1">
+    <div class="bankheader1">
+        <img class="banklogo1" src="chasethumb.png" alt="Bank Logo"> 
+        <img class="bankname1" src="chaselogo.png" alt="Bank Name">
+    </div>
+        <img class="taplogo1" src="icon-contactless-removebg-preview.png">
+        <p class="cardnum1">2350 6890 9668 4644</p>
+    <div class="cardname1">
+        <p class="name1">MIR TAHA NASIR ALI</p>
+    </div>
+    <div class="validity1">
+        <p class="validfrom1"> VALID FROM 08/23</p>
+        <p class="validuptill1"> VALID THRU 05/28</p>
+    </div>
+    <img class="mastercardlogo1" src="mc_symbol_opt_53_2x.png" alt="Mastercard Logo">
+    </section>
+    <section class="freeze-card1">
+        <input type="checkbox" id="toggle1" hidden>
+        <label for="toggle1" class="btn1">
+        <img src="ice-crystal-svgrepo-com.svg" alt="Ice Icon" class="icon">
+        </label>
+        <div class="txt11">
+        <label>
+            Freeze Card
+        </label>
+        </div>
+    </section>
+    <section class="send-money">
+    <h2>Transfer to</h2>
+    <div class="tabs">
+        <input type="radio" id="own-account" name="account-type" checked>
+        <label for="own-account" class="tab">Own account</label>
+        <input type="radio" id="other-account" name="account-type">
+        <label for="other-account" class="tab">Other account</label>
+    </div>
+        <form>
+        <div class="form-group">
+            <label class="required">Beneficiary</label>
+        </div>
+        <div class="form-group">
+            <label for="iban" class="required">IBAN</label>
+            <input type="text" id="iban" class="form-control" placeholder="Enter Amount">
+        </div>
+        <div class="form-group">
+            <label for="amount" class="required">Amount</label>
+            <div class="currency-input">
+                <input type="number" id="amount" class="form-control" step="0.01" min="0" placeholder="Enter Amount"><p class="currency-symbol">$</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="date" class="required">Date</label>
+            <div class="date-input">
+                <input type="date" id="date" class="form-control" required>
+                <span class="date-icon">📅</span>
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="checkbox" id="other-data-toggle">
+            <label for="other-data-toggle" class="dropdown-header">
+                <span>Other data</span>
+                <span class="arrow">▼</span>
+            </label>
+        <div class="dropdown-content">
+        <div class="grid">
+            <div class="form-group">
+                <label for="transfer-purpose">Transfer purpose</label>
+                <input type="text" id="transfer-purpose" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="beneficiary-name">Beneficiary's name</label>
+                <input type="text" id="beneficiary-name" class="form-control">
+            </div>
+        </div>
+        <div class="grid">
+            <div class="form-group">
+                <label for="beneficiary-email">Beneficiary's email</label>
+                <input type="email" id="beneficiary-email" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="payer-reference">Payer's reference</label>
+                <input type="text" id="payer-reference" class="form-control">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="beneficiary-info">Information for beneficiary</label>
+            <textarea id="beneficiary-info" class="form-control textarea"></textarea>
+        </div>
+        </div>
+        </div>
+        <button type="submit" class="submit-btn">Continue</button>
+        </form>
     </section>
 </body>
 </html>
