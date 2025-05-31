@@ -1,0 +1,107 @@
+<!DOCTYPE html lang="en">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contactform.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="chasethumb.png" type="image/png">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div id="loader">
+        <div class="loader">
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+        </div>
+    </div>
+    
+    <div id="content">
+        <section>
+            <div class="sidebar">
+                <a href="mainsite.html" class="icon"><img src="chase-svgrepo-com.svg"></a>
+                <a href="mainsite.html" class="home"><img src="house.svg"><label class="p11">Dashboard</label></a>
+                <a href="transfer.html" class="send"><img src="send.svg"><label class="p11">Transfer</label></a>
+                <a href="transactions.html" class="history"><img src="history.svg"><label class="p11">Transactions</label></a>
+                <a href="investment.html" class="chart1"><img src="chart.svg"><label class="p11">Investments</label></a>
+                <a href="contactform.html" class="contact active-page"><img src="contact-form-svgrepo-com.svg"><label class="p11">Contact</label></a>
+                <div class="userlogout">
+                    <a href="login.html" class="user1"><img src="user-circle-svgrepo-com.svg"><label class="userlabel">Logout</label></a>
+                </div>
+            </div>
+            <div class="clock">
+                <iframe src="https://free.timeanddate.com/clock/i9vm4wtd/n757/fs20/tcc8ece4/pc16302b/bo2/th2/ts1" frameborder="0" width="135" height="27"></iframe>
+            </div>
+        </section>
+        
+        <section class="heading">
+            <h3>Contact Us</h3>
+        </section>
+        
+        <form class="contact-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <select id="subject" name="subject" required>
+                    <option value="">Select a topic</option>
+                    <option value="account">Account Issues</option>
+                    <option value="investment">Investment Questions</option>
+                    <option value="transfer">Transfer Problems</option>
+                    <option value="technical">Technical Support</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="priority">Priority Level</label>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="priority" value="low" checked>
+                        <span class="radio-custom"></span>
+                        Low
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="priority" value="medium">
+                        <span class="radio-custom"></span>
+                        Medium
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="priority" value="high">
+                        <span class="radio-custom"></span>
+                        High
+                    </label>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Please describe your issue or question in detail..." required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>
