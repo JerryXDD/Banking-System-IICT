@@ -5,7 +5,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="mainsite.css">
+    <link rel="stylesheet" href="transactions.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="chasethumb.png" type="image/png">
     <title>Dashboard</title>
@@ -39,7 +39,7 @@
     </div>
     </section>
     <section class="heading">
-        <h3>Transactions Overview</h3>
+        <h1>Transactions Overview</h1>
     </section>
     <section class="banking-card-section">
         <div class="banking-card">
@@ -69,6 +69,135 @@
                 <div class="expenses-section">
                     <p class="section-label">Expenses</p>
                     <p class="section-amount expenses-amount">USD 20,000.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="debitcard">
+        <div class="bankheader">
+            <img class="banklogo" src="chasethumb.png" alt="Bank Logo"> 
+            <img class="bankname" src="chaselogo.png" alt="Bank Name">
+        </div>
+            <img class="taplogo" src="icon-contactless-removebg-preview.png">
+            <p class="cardnum">5191 8930 4601 7576</p>
+        <div class="cardname">
+            <p class="name">MIR TAHA NASIR ALI</p>
+        </div>
+        <div class="validity">
+            <p class="validfrom"> VALID FROM 09/24</p>
+            <p class="validuptill"> VALID THRU 10/29</p>
+        </div>
+        <img class="mastercardlogo" src="mc_symbol_opt_53_2x.png" alt="Mastercard Logo">
+        </section>
+        <section class="transactions-section">
+            <div class="transactions-header">
+                <h2>Transactions</h2>
+                <a href="#" class="view-all">View all</a>
+            </div>
+            
+            <div class="filter-tabs">
+                <button class="tab active">All</button>
+                <button class="tab">Expenses</button>
+                <button class="tab">Income</button>
+            </div>
+        <div class="transactions-list">
+            <div class="transaction-item">
+                <div class="transaction-icon burger">
+                    <span>🍔</span>
+                </div>
+                <div class="transaction-details">
+                    <div class="transaction-name">Burger Lab</div>
+                    <div class="transaction-category">Cafe and Restaurant</div>
+                </div>
+                <div class="transaction-amount negative">-$156.45</div>
+            </div>
+            
+            <div class="transaction-item">
+                <div class="transaction-icon market">
+                    <span>🛒</span>
+                </div>
+                <div class="transaction-details">
+                    <div class="transaction-name">SPAR Market</div>
+                    <div class="transaction-category">Groceries</div>
+                </div>
+                <div class="transaction-amount negative">-$154.50</div>
+            </div>
+            
+            <div class="transaction-item">
+                <div class="transaction-icon transfer">
+                    <span>💸</span>
+                </div>
+                <div class="transaction-details">
+                    <div class="transaction-name">Quick Transfer</div>
+                    <div class="transaction-category">Money Top Up</div>
+                </div>
+                <div class="transaction-amount positive">+$450.00</div>
+            </div>
+            
+            <div class="transaction-item">
+                <div class="transaction-icon market">
+                    <span>🛒</span>
+                </div>
+                <div class="transaction-details">
+                    <div class="transaction-name">Chase Express</div>
+                    <div class="transaction-category">Groceries</div>
+                </div>
+                <div class="transaction-amount negative">-$58.91</div>
+            </div>
+            
+            <div class="transaction-item">
+                <div class="transaction-icon burger">
+                    <span>🍔</span>
+                </div>
+                <div class="transaction-details">
+                    <div class="transaction-name">Aussie Burger</div>
+                    <div class="transaction-category">Cafe and Restaurant</div>
+                </div>
+                <div class="transaction-amount negative">-$125.50</div>
+            </div>
+        </div>
+    </section>
+    <section class="statistics-chart-section">
+        <div class="statistics-chart">
+            <div class="chart-header">
+                <h2 class="chart-title">Statistics</h2>
+                <select class="chart-dropdown">
+                    <option value="weekly">Weekly</option>
+                    <option value="monthly">Monthly</option>
+                    <option value="yearly">Yearly</option>
+                </select>
+            </div>
+            
+            <div class="chart-container">
+                <div class="y-axis">
+                    <span class="y-label">3K</span>
+                    <span class="y-label">2K</span>
+                    <span class="y-label">1K</span>
+                    <span class="y-label">0</span>
+                </div>
+                
+                <div class="chart-bars">
+                    <div class="bar-container">
+                        <div class="bar" style="height: 45%;"></div>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="height: 35%;"></div>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="height: 30%;"></div>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="height: 65%;"></div>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="height: 50%;"></div>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="height: 70%;"></div>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="height: 80%;"></div>
+                    </div>
                 </div>
             </div>
         </div>
