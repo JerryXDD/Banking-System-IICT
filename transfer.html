@@ -109,24 +109,24 @@
         <input type="radio" id="other-account" name="account-type">
         <label for="other-account" class="tab">Other account</label>
     </div>
-        <form>
+        <form method="post" netlfiy>
         <div class="form-group">
             <label class="required">Beneficiary</label>
         </div>
         <div class="form-group">
             <label for="iban" class="required">IBAN</label>
-            <input type="text" id="iban" class="form-control" placeholder="Enter Amount">
+            <input type="text" name="iban" id="iban" class="form-control" placeholder="Enter Amount">
         </div>
         <div class="form-group">
             <label for="amount" class="required">Amount</label>
             <div class="currency-input">
-                <input type="number" id="amount" class="form-control" step="0.01" min="0" placeholder="Enter Amount"><p class="currency-symbol">$</p>
+                <input type="number" name="amount" id="amount" class="form-control" step="0.01" min="0" placeholder="Enter Amount"><p class="currency-symbol">$</p>
             </div>
         </div>
         <div class="form-group">
             <label for="date" class="required">Date</label>
             <div class="date-input">
-                <input type="date" id="date" class="form-control" required>
+                <input type="date" name="date" id="date" class="form-control" required>
                 <span class="date-icon">📅</span>
             </div>
         </div>
@@ -140,26 +140,26 @@
         <div class="grid">
             <div class="form-group">
                 <label for="transfer-purpose">Transfer purpose</label>
-                <input type="text" id="transfer-purpose" class="form-control">
+                <input type="text" name="purpose" id="transfer-purpose" class="form-control">
             </div>
             <div class="form-group">
                 <label for="beneficiary-name">Beneficiary's name</label>
-                <input type="text" id="beneficiary-name" class="form-control">
+                <input type="text" name="beneficiary" id="beneficiary-name" class="form-control">
             </div>
         </div>
         <div class="grid">
             <div class="form-group">
                 <label for="beneficiary-email">Beneficiary's email</label>
-                <input type="email" id="beneficiary-email" class="form-control">
+                <input type="email" name="beneficiaryemail" id="beneficiary-email" class="form-control">
             </div>
             <div class="form-group">
                 <label for="payer-reference">Payer's reference</label>
-                <input type="text" id="payer-reference" class="form-control">
+                <input type="text" name="payer-reference" id="payer-reference" class="form-control">
             </div>
         </div>
         <div class="form-group">
             <label for="beneficiary-info">Information for beneficiary</label>
-            <textarea id="beneficiary-info" class="form-control textarea"></textarea>
+            <textarea id="beneficiary-info" name="information" class="form-control textarea"></textarea>
         </div>
         </div>
         </div>
