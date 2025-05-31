@@ -33,6 +33,7 @@ body {
     position: relative;
     z-index: 2;
     transition: background-color 0.3s ease;
+    overflow-y: auto;
 }
 .icon{
     margin-top: 15px;
@@ -51,16 +52,25 @@ body {
     cursor: pointer;
     margin-left: 3px;
 }
-.sidebar a + a{
-    margin-top: 120px;
+.sidebar a:not(.user1):hover label{
+    color: white;
 }
-.chart1:hover, .send:hover, .home:hover, .history:hover {
+.sidebar a + a{
+    margin-top: 90px;
+}
+.chart1:hover, .send:hover, .home:hover, .history:hover, .contact:hover {
     background-color: #458375;
     border-radius: 30px;
 }
+.contact img{
+  height: 30px;
+  object-fit: cover;
+  background-color: transparent;
+  z-index: 3;
+}
 .userlogout{
-    margin-top: 60px;
-    margin-left: -10px;
+    margin-top: 55px;
+    margin-left: 65px;
 }
 .userlabel{
     margin-top: 2px;
@@ -69,6 +79,9 @@ body {
 .active-page{
     background-color: #458375;
     border-radius: 30px;
+}
+.sidebar a.active-page label {
+    color: white;
 }
 .clock {
     display: flex;

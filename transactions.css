@@ -1,0 +1,293 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #16302B;
+    margin: 0;
+    padding: 0;
+}
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    animation: fadeOutLoader 1s ease forwards;
+    animation-delay: 0.4s;
+} 
+#content {
+    opacity: 0;
+    animation: fadeInContent 1s ease forwards;
+    animation-delay: 1.5s;
+}
+@keyframes fadeOutLoader {
+    from {
+    opacity: 1;
+    }
+    to {
+    opacity: 0;
+    visibility: hidden;
+    }
+}
+@keyframes fadeInContent {
+    from {
+    opacity: 0;
+    }
+    to {
+    opacity: 1;
+    }
+}
+@keyframes square-animation {
+    0%, 10.5% { left: 0; top: 0; }
+    12.5%, 23% { left: 32px; top: 0; }
+    25%, 35.5% { left: 64px; top: 0; }
+    37.5%, 48% { left: 64px; top: 32px; }
+    50%, 60.5% { left: 32px; top: 32px; }
+    62.5%, 73% { left: 32px; top: 64px; }
+    75%, 85.5% { left: 0; top: 64px; }
+    87.5%, 98% { left: 0; top: 32px; }
+    100% { left: 0; top: 0; }
+}
+
+.loader {
+    position: relative;
+    width: 96px;
+    height: 96px;
+    transform: rotate(45deg);
+}
+.loader-square {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 28px;
+    height: 28px;
+    margin: 2px;
+    background: #326d61;
+    animation: square-animation 10s ease-in-out infinite both;
+}
+.loader-square:nth-of-type(1) { animation-delay: 0s; }
+.loader-square:nth-of-type(2) { animation-delay: -1.428s; }
+.loader-square:nth-of-type(3) { animation-delay: -2.857s; }
+.loader-square:nth-of-type(4) { animation-delay: -4.285s; }
+.loader-square:nth-of-type(5) { animation-delay: -5.714s; }
+.loader-square:nth-of-type(6) { animation-delay: -7.142s; }
+.loader-square:nth-of-type(7) { animation-delay: -8.571s; } 
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #c8ece4;
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    margin-left: -10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow-y: auto;
+}
+
+.sidebar a {
+    margin-left: 8px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    transition: background-color 0.3s ease;
+}
+.icon{
+    margin-top: 15px;
+}
+.sidebar img {
+    object-fit: cover;
+    height: 35px;
+    background-color: transparent;
+    z-index: 3;
+}
+.sidebar a{
+    text-decoration: none;
+}
+.sidebar a Label{
+    color: black;
+    cursor: pointer;
+    margin-left: 3px;
+}
+.sidebar a + a{
+    margin-top: 90px;
+}
+.chart1:hover, .send:hover, .home:hover, .history:hover{
+    background-color: #458375;
+    border-radius: 30px;
+}
+.contact:hover {
+    background-color: #458375;
+    border-radius: 30px;
+}
+.contact img{
+    height: 30px;
+    object-fit: cover;
+    background-color: transparent;
+    z-index: 3;
+}
+.sidebar a.active-page label {
+    color: white;
+}
+.sidebar a:not(.user1):hover label{
+    color: white;
+}
+.userlogout{
+    margin-top: 55px;
+    margin-left: 65px;
+}
+.userlabel{
+    margin-top: 2px;
+    margin-left: 13px;
+}
+.active-page{
+    background-color: #458375;
+    border-radius: 30px;
+}
+.clock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+}
+
+.banking-card-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 200px;
+}
+
+.banking-card {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    border-radius: 16px;
+    padding: 24px;
+    width: 280px;
+    color: white;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.account-type {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    color: #ffffff;
+}
+
+.percentage {
+    display: flex;
+    align-items: center;
+    background: rgba(76, 175, 80, 0.2);
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+.percentage-icon {
+    margin-right: 4px;
+    font-size: 10px;
+}
+
+.percentage-value {
+    color: #4CAF50;
+    font-weight: 600;
+}
+
+.balance-section {
+    margin-bottom: 16px;
+}
+
+.balance-label {
+    font-size: 12px;
+    color: #b8c5d6;
+    margin: 0 0 4px 0;
+    font-weight: 400;
+}
+
+.balance-amount {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+    color: #ffffff;
+    letter-spacing: -0.5px;
+}
+
+.available-section {
+    margin-bottom: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(184, 197, 214, 0.2);
+}
+
+.available-label {
+    font-size: 12px;
+    color: #b8c5d6;
+    margin: 0 0 4px 0;
+    font-weight: 400;
+}
+
+.available-amount {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    color: #ffffff;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.income-section,
+.expenses-section {
+    flex: 1;
+}
+
+.section-label {
+    font-size: 11px;
+    color: #b8c5d6;
+    margin: 0 0 4px 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.section-amount {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.income-amount {
+    color: #4CAF50;
+}
+
+.expenses-amount {
+    color: #FF6B6B;
+}

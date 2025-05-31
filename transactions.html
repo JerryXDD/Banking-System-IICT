@@ -1,0 +1,77 @@
+<!DOCTYPE html lang = "en">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mainsite.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="chasethumb.png" type="image/png">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div id="loader">
+        <div class="loader">
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+        </div>
+    </div>
+    <section>
+    <div class="sidebar">
+        <a href="mainsite.html" class="icon"><img src="chase-svgrepo-com.svg"></a>
+        <a href="mainsite.html" class="home"><img src="house.svg"><label class="p11">Dashboard</Label></a>
+        <a href="transfer.html" class="send"><img src="send.svg"><Label class="p11">Transfer</Label></a>
+        <a href="transactions.html" class="history active-page"><img src="history.svg"><Label class="p11">Transactions</Label></a>
+        <a href="chat.html" class="chart1"><img src="chart.svg"><Label class="p11">Investments</Label></a>
+        <a href="contactform.html" class="contact"><img src="contact-form-svgrepo-com.svg"><label class="p11">Contact</label></a>
+        <div class="userlogout">
+            <a href="login.html" class="user1"><img src="user-circle-svgrepo-com.svg"><label class="userlabel">Logout</label></a>
+        </div>
+    </div>
+    <div class="clock">
+    <iframe src="https://free.timeanddate.com/clock/i9vm4wtd/n757/fs20/tcc8ece4/pc16302b/bo2/th2/ts1" frameborder="0" width="135" height="27"></iframe>
+    </div>
+    </section>
+    <section class="heading">
+        <h3>Transactions Overview</h3>
+    </section>
+    <section class="banking-card-section">
+        <div class="banking-card">
+            <div class="card-header">
+                <h2 class="account-type">Checking Account</h2>
+                <div class="percentage">
+                    <span class="percentage-icon">📈</span>
+                    <span class="percentage-value">2.35%</span>
+                </div>
+            </div>
+            
+            <div class="balance-section">
+                <p class="balance-label">Balance</p>
+                <h1 class="balance-amount">USD 10,000.00</h1>
+            </div>
+            
+            <div class="available-section">
+                <p class="available-label">Available</p>
+                <p class="available-amount">USD 8,000.00</p>
+            </div>
+            
+            <div class="card-footer">
+                <div class="income-section">
+                    <p class="section-label">Income</p>
+                    <p class="section-amount income-amount">USD 30,000.00</p>
+                </div>
+                <div class="expenses-section">
+                    <p class="section-label">Expenses</p>
+                    <p class="section-amount expenses-amount">USD 20,000.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
