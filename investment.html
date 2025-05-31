@@ -1,0 +1,223 @@
+<!DOCTYPE html lang = "en">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="investment.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="chasethumb.png" type="image/png">
+    <title>Investment</title>
+</head>
+<body>
+    <div id="loader">
+        <div class="loader">
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+        </div>
+    </div>
+    <section>
+    <div class="sidebar">
+        <a href="mainsite.html" class="icon"><img src="chase-svgrepo-com.svg"></a>
+        <a href="mainsite.html" class="home"><img src="house.svg"><label class="p11">Dashboard</Label></a>
+        <a href="transfer.html" class="send"><img src="send.svg"><Label class="p11">Transfer</Label></a>
+        <a href="transactions.html" class="history"><img src="history.svg"><Label class="p11">Transactions</Label></a>
+        <a href="investment.html" class="chart1 active-page"><img src="chart.svg"><Label class="p11">Investments</Label></a>
+        <a href="contactform.html" class="contact"><img src="contact-form-svgrepo-com.svg"><label class="p11">Contact</label></a>
+        <div class="userlogout">
+            <a href="login.html" class="user1"><img src="user-circle-svgrepo-com.svg"><label class="userlabel">Logout</label></a>
+        </div>
+    </div>
+    <div class="clock">
+    <iframe src="https://free.timeanddate.com/clock/i9vm4wtd/n757/fs20/tcc8ece4/pc16302b/bo2/th2/ts1" frameborder="0" width="135" height="27"></iframe>
+    </div>
+    </section>
+    <section class="heading">
+        <h3>Investment Overview</h3>
+    </section>
+    <section class="investment-dashboard-section">
+        <div class="dashboard-grid">
+            <div class="chart-card">
+                <h3 class="card-title">Yearly total investment</h3>
+                <div class="chart-container">
+                    <div class="y-axis">
+                        <span class="y-label">4K</span>
+                        <span class="y-label">3K</span>
+                        <span class="y-label">2K</span>
+                        <span class="y-label">1K</span>
+                        <span class="y-label">0</span>
+                    </div>
+                    <div class="chart-bars blue-chart">
+                        <div class="bar-container">
+                            <div class="bar" style="height: 75%;"></div>
+                            <span class="x-label">2017</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar" style="height: 60%;"></div>
+                            <span class="x-label">2018</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar" style="height: 55%;"></div>
+                            <span class="x-label">2019</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar" style="height: 95%;"></div>
+                            <span class="x-label">2020</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar" style="height: 70%;"></div>
+                            <span class="x-label">2021</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar" style="height: 80%;"></div>
+                            <span class="x-label">2022</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chart-card">
+                <h3 class="card-title">Yearly total revenue</h3>
+                <div class="chart-container">
+                    <div class="y-axis">
+                        <span class="y-label">4K</span>
+                        <span class="y-label">3K</span>
+                        <span class="y-label">2K</span>
+                        <span class="y-label">1K</span>
+                        <span class="y-label">0</span>
+                    </div>
+                    <div class="chart-bars purple-chart">
+                        <div class="bar-container">
+                            <div class="bar" style="height: 25%;"></div>
+                            <span class="x-label">2017</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar" style="height: 45%;"></div>
+                            <span class="x-label">2018</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar" style="height: 55%;"></div>
+                            <span class="x-label">2019</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar" style="height: 70%;"></div>
+                            <span class="x-label">2020</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar" style="height: 85%;"></div>
+                            <span class="x-label">2021</span>
+                        </div>
+                        <div class="bar-container">
+                            <div class="bar" style="height: 100%;"></div>
+                            <span class="x-label">2022</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="investment-card">
+                <h3 class="card-title">My investment</h3>
+                <div class="investment-list">
+                    <div class="investment-item">
+                        <div class="investment-icon apple"></div>
+                        <div class="investment-details">
+                            <div class="investment-name">Apple Market</div>
+                            <div class="investment-category">Electronics, Marketplace</div>
+                        </div>
+                        <div class="investment-amount">$200.00</div>
+                        <div class="investment-change negative">-23%</div>
+                    </div>
+                    
+                    <div class="investment-item">
+                        <div class="investment-icon greenery"></div>
+                        <div class="investment-details">
+                            <div class="investment-name">Greenery</div>
+                            <div class="investment-category">Electronics, Marketplace</div>
+                        </div>
+                        <div class="investment-amount">$200.00</div>
+                        <div class="investment-change neutral">0%</div>
+                    </div>
+                    
+                    <div class="investment-item">
+                        <div class="investment-icon t-motors"></div>
+                        <div class="investment-details">
+                            <div class="investment-name">T Motors</div>
+                            <div class="investment-category">Electric vehicles</div>
+                        </div>
+                        <div class="investment-amount">$200.00</div>
+                        <div class="investment-change positive">+16%</div>
+                    </div>
+                    
+                    <div class="investment-item">
+                        <div class="investment-icon crypto-coin"></div>
+                        <div class="investment-details">
+                            <div class="investment-name">CryptoCoin</div>
+                            <div class="investment-category">Cryptocurrency, Digital</div>
+                        </div>
+                        <div class="investment-amount">$150.00</div>
+                        <div class="investment-change positive">+42%</div>
+                    </div>
+                    
+                    <div class="investment-item">
+                        <div class="investment-icon real-estate"></div>
+                        <div class="investment-details">
+                            <div class="investment-name">PropertyPlus</div>
+                            <div class="investment-category">Real Estate, Investment</div>
+                        </div>
+                        <div class="investment-amount">$350.00</div>
+                        <div class="investment-change positive">+8%</div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="stock-card">
+                <h3 class="card-title">Trending stock</h3>
+                <div class="stock-table">
+                    <div class="table-header">
+                        <span class="header-name">Name</span>
+                        <span class="header-price">Price</span>
+                        <span class="header-return">Return</span>
+                    </div>
+                    
+                    <div class="stock-row">
+                        <span class="stock-name">Coinspace</span>
+                        <span class="stock-price">$100</span>
+                        <span class="stock-return positive">+10%</span>
+                    </div>
+                    
+                    <div class="stock-row">
+                        <span class="stock-name">DocSign</span>
+                        <span class="stock-price">$100</span>
+                        <span class="stock-return negative">-8%</span>
+                    </div>
+                    
+                    <div class="stock-row">
+                        <span class="stock-name">Target & Co.</span>
+                        <span class="stock-price">$100</span>
+                        <span class="stock-return positive">+10%</span>
+                    </div>
+                    
+                    <div class="stock-row">
+                        <span class="stock-name">FNL Bank</span>
+                        <span class="stock-price">$100</span>
+                        <span class="stock-return positive">+10%</span>
+                    </div>
+                    
+                    <div class="stock-row">
+                        <span class="stock-name">Average Motors</span>
+                        <span class="stock-price">$100</span>
+                        <span class="stock-return neutral">0%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
