@@ -182,13 +182,26 @@ body {
     align-items: center;
     padding: 0px;
 }
+.top-cards-row {
+    display: flex;
+    gap: 32px;
+    margin-left: 210px;
+    margin-top: auto;
+}
+
+.balance-box,
+.savings-card {
+    margin: 0;
+}
+
 .balance-box {
     background-color: #c8ece4;
     border-radius: 10px;
     padding: 20px 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 300px;
-    margin-left: 200px;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
 }
 
 .balance-box .top {
@@ -243,7 +256,7 @@ body {
     padding: 16px;
     max-width: 600px;
     margin-top: -430px;
-    margin-left: 200px;
+    margin-left: 210px;
 }
 
 .chart-header {
@@ -365,7 +378,7 @@ body {
     padding: 20px;
     height: 220px;
     margin-top: 10px;
-    margin-left: 200px;
+    margin-left: 210px;
 }
 
 .header {
@@ -448,8 +461,8 @@ body {
     opacity: 0.9;
 }
 .savings-card {
-    margin-top: -180px;
-    margin-left: 510px;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
     width: 300px;
     height: 180px;
     background-color: #c8ece4;
@@ -520,7 +533,7 @@ body {
     }
 }
 .container2 {
-    margin-left: 510px;
+    margin-left: 520px;
     margin-top: -220px;
     padding: 20px;
     width: 400px;
@@ -753,6 +766,18 @@ body {
     }
     .userlogout {
         margin-top: auto;
+    }
+    .dashboard-row {
+         flex-direction: column;
+         gap: 16px;
+    }
+    .savings-card {
+         margin-top: 16px;
+    }
+    .top-cards-row {
+        flex-direction: column;
+        margin-left: 0;
+        gap: 16px;
     }
 }
 @media (max-width: 600px) {
