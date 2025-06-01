@@ -186,7 +186,7 @@ body {
     display: flex;
     gap: 32px;
     margin-left: 210px;
-    margin-top: auto;
+    margin-top: -12px;
 }
 
 .balance-box,
@@ -255,8 +255,8 @@ body {
     border-radius: 8px;
     padding: 16px;
     max-width: 600px;
-    margin-top: -430px;
-    margin-left: 210px;
+    margin-top: -400px;
+    margin-left: 230px;
 }
 
 .chart-header {
@@ -589,7 +589,8 @@ body {
 .transactions-section {
     max-width: 400px;
     margin-left: auto;
-    margin-top: -175px;
+    margin-right: 10px;
+    margin-top: -165px;
     padding: 20px;
     background-color: #458375;
     border-radius: 16px;
@@ -601,9 +602,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
-
 .transactions-header h2 {
     margin: 0;
     font-size: 24px;

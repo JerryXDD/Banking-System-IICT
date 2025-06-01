@@ -252,7 +252,9 @@ body {
 }
 
 .heading {
-    margin-left: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: antiquewhite;
     font-size: 24px;
     margin-top: -20px;

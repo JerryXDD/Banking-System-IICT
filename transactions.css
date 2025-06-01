@@ -248,9 +248,10 @@ body {
     padding: 0px;
 }
 .heading{
-    margin-left: 200px;
+    margin-left: 210px;
     color: antiquewhite;
     font-size: 24px;
+    margin-top: -15px;
 }
 .banking-card-section {
     display: flex;
@@ -381,18 +382,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 5px;
     font-family: inherit;
-    margin-left: -500px;
-    margin-top: -270px;
+    margin-left: -250px;
+    margin-top: -268px;
 }
 
 .statistics-chart {
-    background: #c8ece4;
+    background: #458375;
     border-radius: 12px;
-    padding: 32px 48px;
+    padding: 12px 28px;
     width: 650px;
-    height: 320px;
+    height: 265px;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
     border: 1px solid #e9ecef;
     display: flex;
@@ -450,7 +451,7 @@ body {
 
 .y-label {
     font-size: 14px;
-    color: #6c757d;
+    color: #ffffff;
     font-weight: 500;
     line-height: 1;
     display: flex;
@@ -476,7 +477,7 @@ body {
 
 .bar {
     width: 100%;
-    background: rgb(92, 92, 230);
+    background: rgb(7, 7, 73);
     border-radius: 4px 4px 2px 2px;
     min-height: 8px;
     transition: all 0.3s ease;
@@ -484,7 +485,6 @@ body {
 }
 
 .bar:hover {
-    background: rgb(92, 92, 230);
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(124, 199, 255, 0.3);
 }
@@ -536,16 +536,15 @@ body {
     margin-top: -290px;
     border: 1px solid black;
     border-radius: 15px;
-    width: 450px;
+    width: 400px;
     height: 250px;
     margin-left: 520px;
     background-image: linear-gradient(rgb(118, 74, 168), black);
 }
 .bankname{
-  margin-left: 85px;
+  margin-left: 78px;
   margin-top: 15px;
-  height: 40px;
-  
+  height: 35px;
 }
 .taplogo{
   height: 29px;
@@ -581,7 +580,7 @@ body {
 }
 .mastercardlogo {
   height: 70px;
-  margin-left: 355px; 
+  margin-left: 300px; 
   margin-top: -59px;
 }
 .bankheader {
@@ -610,7 +609,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    margin-top: -10px;
 }
 
 .transactions-header h2 {
