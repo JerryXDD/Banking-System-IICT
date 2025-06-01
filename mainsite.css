@@ -112,12 +112,14 @@ body {
     color: black;
     font-weight: 500;
     font-size: 1rem;
+    background: none;
 }
 .sidebar a img {
-    width: 28px;
-    height: 28px;
-    object-fit: contain;
-    background: transparent;
+    width: 28px !important;
+    height: 28px !important;
+    object-fit: contain !important;
+    display: block;
+    margin: 0;
 }
 .sidebar a label, .sidebar a Label {
     margin-left: 8px;
@@ -780,4 +782,23 @@ body {
         width: 28px;
         height: 28px;
     }
+}
+.sidebar a.icon {
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background: none !important;
+    box-shadow: none !important;
+    pointer-events: auto;
+}
+.sidebar a.icon img {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    display: block;
+}
+.sidebar a.icon:hover,
+.sidebar a.icon.active-page {
+    background: none !important;
 }
