@@ -1,5 +1,4 @@
-
-#Chase Bank Web Application (Frontend Demo)
+# *Chase Bank Web Application (Frontend Demo)*
 
 For My Semester Project of Introduction to Information & Communication Technology course, I solo-created a modern, responsive **HTML & CSS-only** web application that simulates a banking interface. Includes user login, account management, transaction history, investment tracking, and a support form — all **without JavaScript**.
 
@@ -7,31 +6,31 @@ For My Semester Project of Introduction to Information & Communication Technolog
 
 ---
 
-##Features
+## Features
 
 ### Authentication Pages
 - Login, Signup, and Password Recovery (static forms)
 
-###Account Management
+### Account Management
 - Main dashboard with balance overview
 - Virtual debit card display
 - Transaction history layout
 
-###Money Transfer
+### Money Transfer
 - Internal/external transfer form designs
 - IBAN input fields & scheduled transfer options
 
-###Investment Portfolio
+### Investment Portfolio
 - Yearly investment chart (CSS-based)
 - Asset tracking sections (e.g., Tesla, Crypto)
 
-###Customer Support
+### Customer Support
 - Contact form with priority levels
 - Netlify Forms integration for submissions
 
 ---
 
-##Built With
+## Built With
 
 - **HTML5**
 - **CSS3**
@@ -54,7 +53,7 @@ For My Semester Project of Introduction to Information & Communication Technolog
 
 ---
 
-## ⚙️ Netlify Forms Setup
+## Netlify Forms Setup
 
 This project uses **Netlify Forms** for backendless form handling:
 
@@ -63,7 +62,7 @@ This project uses **Netlify Forms** for backendless form handling:
 3. Set notifications via Netlify dashboard
 
 
-##Credits
+## Credits
 
 * UI inspired by Chase Bank
 * Fonts by Google Fonts (Inter)
